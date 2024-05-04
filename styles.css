@@ -219,7 +219,33 @@
       padding: 15px 40px;
     }
   }
-  
+  /* Frame styles */
+.frame {
+  display: flex;
+}
+
+/* Tile styles */
+.tile {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10px; /* Adjust spacing between tiles */
+}
+
+.lakh41 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #777;
+}
+
+.Highest-Salary {
+  font-size: 18px;
+  color: #777;
+}
+
+
   
   .our-work {
     text-align: center; /* Center align content */
