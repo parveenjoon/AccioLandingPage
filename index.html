@@ -14,35 +14,75 @@
 
   <body>
     <header>
-      <h2><a href="#" id="logo">AccioJob</a></h2>
+      <div id="acciojobtxt">AccioJob</div>
+        <div id="nsdc">
+          <img src="images/NSDC_Logo.svg" width="77px" height="35px" alt="nsdc">
+        </div>
       <nav>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">AccioJob Reviews</a></li>
-        <li><a href="#">Scholarship Test</a></li>
-        <li><a href="#">More</a></li>
-        <li><button class="dropbtn">Login</button></li>
+        <li><a class="nav-link dropdown-toggle nav1" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Course</a>
+        </li>
+        <li><a class="nav-link nav1" href="#">Acciojob Reviews</a></li>
+        <li><a class="nav-link nav1" href="#">Scholar Test</a></li>
+        <li><a class="nav-link dropdown-toggle nav1" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+          More
+        </a></li>
+        <li>
+          <form class="d-flex">
+          <button class="btn btn-outline-success" type="submit">Login</button>
+        </form>
+        </li>
       </nav>
     </header>
-
     <section class="hero">
+      <section class="hero-section"><marquee><p>Next batch starts in ⌛ 22 Days, Hurry!</p></marquee></section>
       <div
         class="background-image"
-        style="background-image: url(assets/img/hero.jpg)"
+        style="background-image: url(images/img/hero.jpg)"
       ></div>
       <h1>Launch your career with our Full Stack Developer Courses</h1>
       <p>
         Curriculum designed and taught by Alumni from IIT's & Leading Tech Companies.
       </p>
+      <div class="frame">
+        <div class="tile">
+          <div class="lakh41">41 Lakhs</div>
+          <div class="Highest-Salary">Highest Salary</div>
+        </div>
+        <div class="tile">
+          <div class="lakh41">300+</div>
+          <div class="Highest-Salary">Partner Companies</div>
+        </div>
+        <div class="tile">
+          <div class="lakh41">100%</div>
+          <div class="Highest-Salary">Job Guarantee</div>
+        </div>
+        <div class="tile">
+          <div class="lakh41">8.3 LPA</div>
+          <div class="Highest-Salary">Average Salary</div>
+        </div>
+      </div>      
+      
       <div class="card">
-        <h2>Start Attending Live Classes</h2>
-        <p>Join our live interactive sessions and learn from industry experts.</p>
-        <a href="#" class="btn">Apply Now</a>
+        <h2>Start Attending Live Classes for Free!</h2>
+        <p>Live lectures & Assignments curated by Top Tech Proffesionals</p>
+        <form>
+          <div class="name">
+                  <i class="fa fa-id-badge" aria-hidden="true"></i>
+                  <input type="text" id="name" placeholder="Parveen Joon" style="padding:5px;  border:none; background-color: #fafafa; ">
+          </div>
+          <div class="number">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <input type="text" id="name" placeholder="+91-1234567891" style="padding:5px; border:none; background-color: #fafafa;">
+          </div>
+        </form>
+        <a href="#" class="btn">Apply Now For Free</a>
       </div>
     </section>
 
     <section class="our-work">
         <h3 class="title">Our Courses</h3>
-        <p>
+        <p> 
           Learn full stack development
         </p>
         <hr />
@@ -95,30 +135,43 @@
     <h3 class="title">AccioJob Wall of Love</h3>
   
     <div class="tile">
-        <p class="quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis
-            et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam
-            dictum sapien, id sagittis augue malesuada eu.
-        </p>
-        <p class="author">— Virat Kohli</p>
+      <div class="card-1-upper">
+        <div class="image1"><img src="./images/2.svg"></div>
+        <div class="name-of-student"><h4>Virat Kohli</h4><p>SDE-II at Indian Cricket Board</p></div>
+        <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+    </div>
+    <div><p>My Life changed when I became a part of the
+        AccioJob family. Before that I was not able to
+        score any centuries. As soon as I joined Accio,
+        I hit a century against Afganistan.</p></div>
+        <div><p>Jun 14, 2022</p></div>
     </div>
   
     <div class="tile">  
-        <p class="quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis
-            et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam
-            dictum sapien, id sagittis augue malesuada eu.
-        </p>
-        <p class="author">— Virender Sehwag</p>
+      <div class="card-1-upper">
+        <div class="image1"><img src="./images/1.svg"></div>
+        <div class="name-of-student"><h4>Ishan Kishan</h4><p>Intern at Indian Cricket Board</p></div>
+        <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+    </div>
+    <div><p>My Life changed when I became a part of the
+        AccioJob family. Before that I was not able to
+        score any centuries. As soon as I joined Accio,
+        I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afganistan..</p></div>
+        <div><p>Jun 14, 2022</p></div>
     </div>
   
     <div class="tile">
-        <p class="quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis
-            et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam
-            dictum sapien, id sagittis augue malesuada eu.
-        </p>
-        <p class="author">— Sachin Tendulkar</p>
+      <div class="card-1-upper">
+        <div class="image1"><img src="./images/3.svg"></div>
+        <div class="name-of-student"><h4>Sachin Tendulkar</h4><p>God at Indian Cricket Board</p></div>
+        <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+      </div>
+      <div><p>My Life changed when I became a part of the
+        AccioJob family. Before that I was not able to
+        score any centuries. As soon as I joined Accio,
+        I hit a century against Afganistan.</p></div>
+      <div><p>Jun 14, 2022</p></div>
+</div>
     </div>
 </section>
 
